@@ -1,0 +1,194 @@
+2
+284
+flash/Barry/goqhe/helloworld
+hal/lantern/what/red
+Activating Server
+
+Server IP : [192.168.1.66, 99.126.250.47]
+
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922033379
+1448922033380
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size268
+Add last[lantern, carbon.lattice.Message@8022cbc, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@72acc3a1, flash]
+r 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922190703
+1448922190704
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@5b059557, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@e11ed51, flash]
+r 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922284862
+1448922284862
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@ea6e780, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@5be72cab, flash]
+r 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922349462
+1448922349462
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@341cddba, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@61e7ac06, flash]
+r 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922477084
+1448922477085
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@5bb86362, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@eacbe92, flash]
+r 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448922754076
+1448922754076
+[lantern, flash, hal]
+
+Verify
+
+[hal, flash]
+r 
+size0
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@7a214e1d, flash]
+iron man 
+Add last[hal, carbon.lattice.Message@3872f882, flash]
+r 
+Remove : flash

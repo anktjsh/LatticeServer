@@ -1,0 +1,42 @@
+flash/Barry/goqhe/helloworld
+[flash, Barry, goqhe, helloworld]
+1
+269
+flash/Barry/goqhe/helloworld
+
+Server IP : [192.168.1.74, 99.126.250.47]
+
+Activating Server
+
+192.168.1.74
+
+
+Verify
+
+[Security, flash]
+goqhe
+
+Verify
+
+[Recover, flash, goqhe, helloworld]
+Barry
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1438897587815
+1438897587816
+[lantern, flash]
+
+Verify
+
+[lantern, flash]
+iron man 
+size0
+Add last[lantern, carbon.lattice.Message@31cf1e5d, flash]
+iron man 
+Remove : flash

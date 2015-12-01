@@ -1,0 +1,18 @@
+\
+C:\Users\Aniket\Documents\NetBeansProjects\LatticeServer\dist\run185286426\LatticeServer.jar
+C:\Program Files\Java\jdk1.8.0_45\jre
+Oracle Corporation
+http://java.oracle.com/
+1.8.0_45
+
+
+amd64
+Windows 8.1
+6.3
+;
+C:\Users\Aniket\Documents\NetBeansProjects\LatticeServer
+C:\Users\Aniket
+Aniket
+1
+269
+flash/Barry/goqhe/helloworld

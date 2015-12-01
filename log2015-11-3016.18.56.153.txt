@@ -1,0 +1,125 @@
+1
+269
+flash/Barry/goqhe/helloworld
+
+Server IP : [192.168.1.66, 99.126.250.47]
+
+connect
+p.grappl.io:3210
+Activating Server
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448921432639
+1448921432640
+[lantern, flash]
+
+Verify
+
+[lantern, flash]
+iron man 
+size268
+Remove : flash
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1448921528121
+1448921528121
+[lantern, flash]
+
+Verify
+
+[lantern, flash]
+iron man 
+size268
+
+127.0.0.1
+
+
+Verify
+
+[Login, goqhe, helloworld]
+
+Verify
+
+[Register, hal, lantern, what, red]
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1448921613781
+1448921613781
+[]
+false
+true
+carbon.lattice.Message@4d3ace31
+flashBarry
+write 0
+carbon.lattice.Message@887138b
+hallantern
+write 0
+carbon.lattice.Message@1476ca7b
+hallantern
+write 0
+carbon.lattice.Message@6ce6f0cd
+hallantern
+write 0
+carbon.lattice.Message@7657afe7
+flashBarry
+write 0
+carbon.lattice.Message@7e4d83a8
+hallantern
+write 0
+carbon.lattice.Message@7f63b200
+hallantern
+write 0
+carbon.lattice.Message@28e0768d
+hallantern
+write 0
+carbon.lattice.Message@5058b34f
+hallantern
+write 0
+carbon.lattice.Message@15aeaece
+hallantern
+write 0
+carbon.lattice.Message@59a80830
+hallantern
+write 0
+carbon.lattice.Message@12529fcf
+hallantern
+write 0
+carbon.lattice.Message@1acc1811
+hallantern
+write 0
+carbon.lattice.Message@297400c3
+hallantern
+write 0
+carbon.lattice.Message@359e8afc
+hallantern
+write 0
+Add last[hal, carbon.lattice.Message@359e8afc, flash]
+r 
+Remove : flash
+Add last[flash, carbon.lattice.Message@5348d93d, hal]
+r 
+Remove : hal
