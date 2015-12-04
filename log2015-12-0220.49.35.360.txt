@@ -1,0 +1,198 @@
+2
+0
+flash/Barry/goqhe/helloworld
+hal/lantern/what/red
+Activating Server
+
+Server IP : [192.168.1.66, 99.126.250.47]
+
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449107306438
+1449107306439
+[]
+Remove : flash
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449107500077
+1449107500077
+[]
+Remove : flash
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449107611373
+1449107611373
+[]
+Remove : flash
+
+127.0.0.1
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449108302620
+1449108302620
+[]
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449108738429
+1449108738429
+[]
+
+192.168.1.66
+
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1449108774775
+1449108774775
+[]
+true
+carbon.lattice.Message@114b5972
+flashBarry
+write 0
+Add last[hal, carbon.lattice.Message@4d93f18, flash]
+go 
+Remove : flash
+Add last[flash, carbon.lattice.Message@114b5972, hal]
+go 
+Remove : hal
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449109101636
+1449109101636
+[hal]
+
+Verify
+
+[hal, flash]
+go 
+size0
+Add last[hal, carbon.lattice.Message@3d1d49ad, flash]
+go 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449109201946
+1449109201946
+[hal]
+
+Verify
+
+[hal, flash]
+go 
+size0
+Add last[hal, carbon.lattice.Message@5a02a326, flash]
+go 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449109300485
+1449109300487
+[hal]
+
+Verify
+
+[hal, flash]
+go 
+size0
+Add last[hal, carbon.lattice.Message@6a3df49e, flash]
+go 
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449110008653
+1449110008653
+[hal]
+
+Verify
+
+[hal, flash]
+go 
+size0
+Add last[hal, carbon.lattice.Message@47e6ab49, flash]
+go 
+Remove : flash

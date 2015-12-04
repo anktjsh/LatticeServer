@@ -24,16 +24,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import javafx.application.Platform;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.geometry.Pos;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.ListView;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
@@ -45,7 +43,8 @@ import javafx.stage.Modality;
 public class ServerPane extends BorderPane {
 
     private final ArrayList<Message> messages;
-    private final TextArea area;
+//    private final TextArea area;
+    private final ListView<String> view;
     private final MenuBar bar;
     private static final int PORT = 16384;
     private ServerSocket ss;
@@ -66,32 +65,13 @@ public class ServerPane extends BorderPane {
     };
 
     public ServerPane() {
-        area = new TextArea();
-        setCenter(area);
-        area.setEditable(false);
-        area.setMinSize(400, 400);
+        view = new ListView<>();
+        setCenter(view);
+        view.setMinSize(400, 400);
         bar = new MenuBar();
         setTop(bar);
-//        ObservableList<String> obse = FXCollections.observableArrayList(
-//                "file.separator",
-//                "java.class.path"	,
-//                "java.home"	,
-//                "java.vendor"	,
-//                "java.vendor.url",
-//                "java.version"	,
-//                "line.separator",
-//                "os.arch"	,
-//                "os.name"	,
-//                "os.version"	,
-//                "path.separator",
-//                "user.dir"	,
-//                "user.home"	,
-//                "user.name"	);
-//        for (String s : obse) {
-//            appendText(System.getProperty(s));
-//        }
         conn = new ArrayList<>();
-        bar.getMenus().add(new Menu("Connection"));
+        bar.getMenus().addAll(new Menu("Connection"), new Menu("Storage"));
         bar.getMenus().get(0).getItems().add(new MenuItem("Start"));
         bar.getMenus().get(0).getItems().get(0).setOnAction((e) -> {
             if (ss == null) {
@@ -130,7 +110,7 @@ public class ServerPane extends BorderPane {
                             ObjectInputStream ois = new ObjectInputStream(s.getInputStream());
 
                             String ser = s.getInetAddress().getHostAddress();
-                            appendText("\n" + ser + "\n");
+                            appendText("" + ser + "");
                             Connection c = new Connection(ois, iis, conn.size());
                             conn.add(c);
                             (new Thread(c)).start();
@@ -139,10 +119,19 @@ public class ServerPane extends BorderPane {
                     }
                 })).start();
                 bar.getMenus().get(0).getItems().get(0).setDisable(true);
-                appendText("\n" + "Server IP : " + Server.getServer() + "\n");
+                appendText("" + "Server IP : " + Server.getServer() + "");
             }
         });
+        bar.getMenus().get(1).getItems().addAll(new MenuItem("Clear"));
         messages = new ArrayList<>();
+        bar.getMenus().get(1).getItems().get(0).setOnAction((e) -> {
+            try {
+                Files.delete(new File("save.txt").toPath());
+            } catch (IOException ex) {
+            }
+            messages.clear();
+        });
+        
         load();
         for (Password p : passwords) {
             appendText(p.toString());
@@ -295,7 +284,7 @@ public class ServerPane extends BorderPane {
                     } else if (oj instanceof ArrayList) {
                         ArrayList str = (ArrayList) oj;
                         String one = (String) str.get(0);
-                        appendText("\n" + str + "\n");
+                        appendText("" + str + "");
                         Connection c = getRecipient(one, index);
                         if (c != null) {
                             c.getOOS().writeObject(oj);
@@ -304,9 +293,9 @@ public class ServerPane extends BorderPane {
                             oos.writeObject(-1);
                         }
                     } else if (oj instanceof String[]) {
-                        appendText("\n" + "Verify");
+                        appendText("" + "Verify");
                         String[] temp = (String[]) oj;
-                        appendText("\n" + Arrays.toString(temp));
+                        appendText("" + Arrays.toString(temp));
                         if (temp.length == 3) {
                             oos.writeObject(confirmCredentials(temp[0], temp[1], temp[2], pass));
                         } else if (temp.length == 1) {
@@ -426,7 +415,7 @@ public class ServerPane extends BorderPane {
             }
         } else {
             for (Password p : pas) {
-                if (p.getUsername().equals(username)){
+                if (p.getUsername().equals(username)) {
                     pass.setUsername(p.getUsername());
                     pass.setPassword(p.getPassword());
                     pass.setQuestion(p.getQuestion());
@@ -541,7 +530,7 @@ public class ServerPane extends BorderPane {
 
     private void appendText(String s) {
         Platform.runLater(() -> {
-            area.appendText(s + "\n");
+            view.getItems().add(s);
         });
     }
 
@@ -550,7 +539,11 @@ public class ServerPane extends BorderPane {
     }
 
     public String getLog() {
-        return area.getText();
+        String sa = "";
+        for (String s : view.getItems()) {
+            sa += s + "";
+        }
+        return sa;
     }
 
     private Connection getRecipient(String user, int index) {

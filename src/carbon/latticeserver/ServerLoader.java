@@ -59,7 +59,6 @@ public class ServerLoader extends Preloader {
         this.stage = stage;
         stage.getIcons().add(new Image(getClass().getResourceAsStream("Code.png")));
         stage.setScene(createPreloaderScene());
-        stage.setAlwaysOnTop(true);
         stage.setTitle("LatticeServer");
         stage.show();
     }

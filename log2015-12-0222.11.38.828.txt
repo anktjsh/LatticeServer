@@ -1,0 +1,324 @@
+2
+1
+flash/Barry/goqhe/helloworld
+hal/lantern/what/red
+Activating Server
+
+Server IP : [192.168.1.66, 99.126.250.47]
+
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449112142549
+1449112142549
+[hal]
+true
+Remove : flash
+
+192.168.1.66
+
+
+Verify
+
+[Login, hal, latnern]
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1449114980854
+1449114980854
+[flash]
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449114984404
+1449114984404
+[hal]
+true
+carbon.lattice.Message@1cddb900
+hallantern
+write 0
+carbon.lattice.Message@5dafb36e
+flashBarry
+write 0
+carbon.lattice.Message@179fddbb
+flashBarry
+write 0
+carbon.lattice.Message@18651dee
+hallantern
+write 0
+carbon.lattice.Message@3e3b8556
+hallantern
+write 0
+carbon.lattice.Message@39ce1518
+flashBarry
+write 0
+carbon.lattice.Message@4bd910b
+flashBarry
+write 0
+carbon.lattice.Message@3eaca3c0
+hallantern
+write 0
+carbon.lattice.Message@69fb5a7f
+hallantern
+write 0
+Add last[hal, carbon.lattice.Message@69fb5a7f, flash]
+yo 
+Remove : flash
+carbon.lattice.Message@6f02162e
+write -1
+Add last[flash, carbon.lattice.Message@6f02162e, hal]
+insane 
+Remove : hal
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449115449535
+1449115449535
+[hal]
+
+192.168.1.66
+
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1449115453865
+1449115453865
+[flash]
+true
+carbon.lattice.Message@45ad226b
+hallantern
+write 0
+carbon.lattice.Message@61e8a1da
+hallantern
+write 0
+carbon.lattice.Message@5e2ef41a
+hallantern
+write 0
+carbon.lattice.Message@7ba4307c
+flashBarry
+write 0
+carbon.lattice.Message@290e896c
+flashBarry
+write 0
+Add last[hal, carbon.lattice.Message@1ec998c7, flash]
+what happened 
+Remove : flash
+Add last[flash, carbon.lattice.Message@290e896c, hal]
+what happened 
+Remove : hal
+
+192.168.1.66
+
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1449115633183
+1449115633184
+[flash]
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449115634421
+1449115634421
+[hal]
+true
+carbon.lattice.Message@7838b925
+hallantern
+write 0
+carbon.lattice.Message@4da38bb8
+hallantern
+write 0
+carbon.lattice.Message@788d289
+hallantern
+write 0
+carbon.lattice.Message@460e8dcf
+hallantern
+write 0
+carbon.lattice.Message@10b5f16c
+hallantern
+write 0
+carbon.lattice.Message@7aeb65b0
+hallantern
+write 0
+carbon.lattice.Message@7fa15367
+hallantern
+write 0
+carbon.lattice.Message@262e0e54
+hallantern
+write 0
+carbon.lattice.Message@48cf874e
+hallantern
+write 0
+carbon.lattice.Message@5c3d08b1
+hallantern
+write 0
+carbon.lattice.Message@110e2166
+hallantern
+write 0
+carbon.lattice.Message@3d029b56
+hallantern
+write 0
+carbon.lattice.Message@11b9f157
+hallantern
+write 0
+carbon.lattice.Message@58cf0a65
+hallantern
+write 0
+carbon.lattice.Message@76b0f218
+hallantern
+write 0
+carbon.lattice.Message@2b40493d
+hallantern
+write 0
+carbon.lattice.Message@2bca3aea
+hallantern
+write 0
+carbon.lattice.Message@5258fed9
+hallantern
+write 0
+carbon.lattice.Message@6eef6bb2
+hallantern
+write 0
+carbon.lattice.Message@8642769
+hallantern
+write 0
+carbon.lattice.Message@54a2afab
+hallantern
+write 0
+carbon.lattice.Message@43787a45
+hallantern
+write 0
+carbon.lattice.Message@616dcbb9
+hallantern
+write 0
+carbon.lattice.Message@1d9e7ccb
+hallantern
+write 0
+carbon.lattice.Message@ca7ac09
+hallantern
+write 0
+carbon.lattice.Message@41774d2c
+flashBarry
+write 0
+carbon.lattice.Message@2661e897
+hallantern
+write 0
+carbon.lattice.Message@32c523e8
+flashBarry
+write 0
+Add last[hal, carbon.lattice.Message@73926493, flash]
+huh 
+Remove : flash
+Add last[flash, carbon.lattice.Message@32c523e8, hal]
+huh 
+Remove : hal
+
+192.168.1.66
+
+
+Verify
+
+[Login, flash, Barry]
+
+Verify
+
+[flash]
+1449115820174
+1449115820174
+[hal]
+
+192.168.1.66
+
+
+Verify
+
+[Login, lantern, Hal]
+
+Verify
+
+[Login, hal, lantern]
+
+Verify
+
+[hal]
+1449115828079
+1449115828079
+[flash]
+true
+carbon.lattice.Message@435fafb9
+hallantern
+write 0
+carbon.lattice.Message@7594bf48
+hallantern
+write 0
+carbon.lattice.Message@3eae7666
+hallantern
+write 0
+carbon.lattice.Message@18b03270
+hallantern
+write 0
+carbon.lattice.Message@ac99b8e
+flashBarry
+write 0
+carbon.lattice.Message@44cd26ef
+flashBarry
+write 0
+carbon.lattice.Message@721e82df
+flashBarry
+write 0
+carbon.lattice.Message@6d4706
+flashBarry
+write 0
+Add last[hal, carbon.lattice.Message@40c79998, flash]
+gotcah 
+Remove : flash
+Add last[flash, carbon.lattice.Message@6d4706, hal]
+gotcah 
+Remove : hal
